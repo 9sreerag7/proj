@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: #f0f2f5;
+  color: #333;
+}
+header {
+  background: linear-gradient(90deg, #4a4e69, #22223b);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.project {
+  background: white;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.project:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.1);
+}
+.project h2 {
+  margin-top: 0;
+  color: #22223b;
+  font-size: 1.5rem;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  color: #4a4e69;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+.project a:hover {
+  border-color: #4a4e69;
+}
+.project p {
+  margin: 0.8rem 0 0;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 0.9rem;
+  color: #777;
+  border-top: 1px solid #ddd;
+  margin-top: 4rem;
+}
